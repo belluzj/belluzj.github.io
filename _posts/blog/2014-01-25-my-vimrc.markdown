@@ -1,0 +1,345 @@
+---
+layout: post
+title:  "My .vimrc"
+categories: blog
+---
+
+This post is dedicated to `vim`, the greatest editor of all times (well, hum,
+at least until the 90's). I will comment some of the contents of my `.vimrc`
+file and say a word about some interesting plugins. This is also a good
+opportunity to showcase [my programming font][fantasque].
+
+### Base configuration
+
+Nothing really fancy, just make `vim` usable.
+
+Only a few settings make it go from old school crappy program to some modern
+and good text editor. Notice that I use [Pathogen] to manage my plugins.
+{:.margin.note}
+
+{% highlight vim %}
+call pathogen#infect()
+
+filetype on       " enable file type detection
+syntax on         " syntax highlighting
+filetype plugin on
+filetype indent on
+
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set smartindent   " smart code indentation
+set smarttab      " smart tabs
+
+set wildmenu     " better command autocompletion
+set laststatus=2 " always show statusline
+
+set incsearch  " search as you type
+set hlsearch   " highlight the search results
+set smartcase  " auto ignore case or not
+
+set hidden " Something about letting files with unsaved changes
+           " sit in the back while editing something else
+set switchbuf=usetab,newtab
+
+set guioptions-=T " No toolbar - I never click the buttons
+set showtabline=2 " Always show tab bar
+
+set backspace=2   " Make backspace work like most other apps
+
+set fo-=t  " Do not format text
+set fo+=r  " Repeat comment leader on new lines
+
+" When editing a file, always jump to the last cursor position
+if has("autocmd")
+   autocmd BufReadPost *
+            \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+            \   exe "normal! g'\"" |
+            \ endif
+endif
+
+set pastetoggle=<F2>
+{% endhighlight %}
+
+### Some personal additions
+
+#### Blogging made easy: spell checking and syntax highlighting
+
+I am using `vim` right now to write this blog post, and what happens?
+My fongers ripp, I mke mistqkes. Fortunately, a few presses on `<F11>`
+immediately highlights my errors, whatever language I am using. Plus my
+markdown and HTML files, mixed with Liquid syntax, are perfectly highlighted.
+
+{% highlight vim %}
+function ToggleSpell()
+  if (&spell && &spelllang == "fr")
+    setlocal nospell
+  elseif (&spell)
+    setlocal spell spelllang=fr
+  else
+    setlocal spell spelllang=en
+  endif
+endfunction
+nmap <F11> :call ToggleSpell()<Return>
+
+if has("autocmd")
+   autocmd BufEnter ~/html/pages/**/*.markdown setlocal syntax=liquid
+   autocmd BufEnter ~/html/pages/**/*.html setlocal syntax=liquid
+endif
+{% endhighlight %}{:.fullwidth}
+
+#### School-related stuff
+
+The Ensimag's first language is Ada. Here are two shortcuts that make one-file
+exercises easier: press `<F5>` and it compiles, `<F6>` and it runs.  Then came
+the [Software Engineering Project][projet-gl]. A quite large code base to work
+on, and never-seen-before file types, such as the homemade `.deca`, our subset
+of Java. [Ctrl-P][ctrl-p] or [Command-T][command-t] solves the navigation
+problem, and some auto-commands enable syntax highlighting. And finally a small
+TeX setting to prevent `vim` from replacing TeX commands with fancy characters.
+
+{% highlight vim %}
+let g:ada_standard_types=1  " Highlight Ada types
+nmap <F5> :make<Return>
+if has("autocmd")
+   autocmd BufEnter *.adb nmap <F5> :!gnatmake %:p:r<Return>
+endif
+nmap <F6> :!%:p:r<Return>
+
+" Spécial Projet GL
+" At school I used Ctrl-P because I had trouble compiling Command-T.
+" But Command-T is better.
+" nnoremap <C-P> :CtrlP /home/jany/Developpement/Projet_GL<cr>
+nnoremap <silent> <C-P> :CommandT<CR>
+" set wildignore+=*.o,*Exec/*,*b~*,*.ali,*.pdf,*.gcno,*.gcda " ignores too much
+let g:ctrlp_map = '<C-P>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_prompt_mappings = {
+         \ 'AcceptSelection("e")': ['<cr>', '<2-LeftMouse>'],
+         \ 'AcceptSelection("h")': ['<c-x>', '<c-s>'],
+         \ 'AcceptSelection("t")': ['<c-cr>', '<c-t>'],
+         \ 'AcceptSelection("v")': ['<c-v>', '<RightMouse>'],
+         \ }
+
+" Taken from http://www.jukie.net/bart/blog/vim-and-linux-coding-style
+if has('autocmd')
+   autocmd BufEnter *.c,*.h,*.cpp,*.hpp,*.cc source ~/.vim/c.vim
+   autocmd BufEnter *.deca set syntax=java
+   autocmd BufEnter *.ass set syntax=asm
+   autocmd BufEnter *.l set syntax=aflex
+   autocmd BufEnter *.y set syntax=ayacc
+endif
+
+let g:tex_conceal="" " Do not show special characters instead of TeX code
+{% endhighlight %}{:.fullwidth}
+
+### Plugins
+
+I already mentioned [Command-T][command-t], which I used heavily for big school
+projects. However, for other smaller projects, for which I know very well the
+directory structure, I prefer to rely on [NERDTree][nerdtree], which I keep
+hidden on the side.
+
+{% highlight vim %}
+" Easy file navigation
+map <C-e> :NERDTreeToggle<CR>
+let NERDTreeShowBookmarks=1
+let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
+let NERDTreeChDirMode=0
+let NERDTreeQuitOnOpen=1
+let NERDTreeMouseMode=2
+let NERDTreeShowHidden=1
+let NERDTreeKeepTreeInNewTab=1
+let g:nerdtree_tabs_open_on_gui_startup=0
+{% endhighlight %}{:.fullwidth}
+
+[Indentline][indentline] is a plugin that displays a subtle line for every
+level of indentation. I found it very useful while doing Ada or Javascript with
+small indentations like 2 or 3 spaces. But it is definitely less useful with
+full-width tabulations (and anyway it wont work in this case, it needs spaces).
+So this plugin too has a toggle shortcut.
+
+Bonus: a curated set of line drawing characters. Where do you
+find a font which has all of them? Hint: [Fantasque Sans][fantasque] does.
+{:.margin.note}
+
+{% highlight vim %}
+" indentline
+" ┊ | ¦ ┆ │ ⎸
+let g:indentLine_char = "⎸"
+let g:indentLine_color_term = 59
+let g:indentLine_color_gui = '#EEE8D5'
+nmap <F4> :call ToggleIndentLine()<Return>
+{% endhighlight %}
+
+Other plugins that do not need configuration include [surround], [supertab],
+[syntastic], [multiple-cursors] (I really miss the `<C-N>` shortcut when I'm in
+another editor), and the awesome [Fugitive] (that I most often launch directly
+from the terminal, not too much from inside of `vim` --- more about that in
+another post).
+
+### Look and feel
+
+#### Not-that-much-entertaining stuff
+
+Some shortcuts for tab and window switching, and precise configuration of how I
+want long lines to be cut in a civilized manner.
+{:.margin}
+
+{% highlight vim %}
+" Tab switching à la Firefox
+nmap <C-S-tab> :tabprevious<cr>
+nmap <C-tab> :tabnext<cr>
+imap <C-S-tab> <ESC>:tabprevious<cr>i
+imap <C-tab> <ESC>:tabnext<cr>i
+" In fact I only use these two
+nmap <C-t> :tabnew<cr>
+imap <C-t> <ESC>:tabnew<cr>i
+
+" Window switching
+noremap <c-h> <c-w>h
+noremap <c-j> <c-w>j
+noremap <c-k> <c-w>k
+noremap <c-l> <c-w>l
+
+" Word wrapping and movement in wrapped mode.
+set wrap        " I do not like scrolling horizontally
+set nolist      " list disables linebreak
+set linebreak
+" Nice line numbers, wich look good even with wrapped lines.
+set number
+set numberwidth=6
+set cpoptions+=n
+let &showbreak = '    · '
+set display+=lastline
+
+noremap  <silent> <Up>   gk
+noremap  <silent> <Down> gj
+noremap  <silent> <Home> g<Home>
+noremap  <silent> <End>  g<End>
+inoremap <silent> <Up>   <C-o>gk
+inoremap <silent> <Down> <C-o>gj
+inoremap <silent> <Home> <C-o>g<Home>
+inoremap <silent> <End>  <C-o>g<End>
+" These can be used to move more easily between wrapped lines
+" but they break moves such as in `d2j`
+"noremap  <silent> k gk
+"noremap  <silent> j gj
+"noremap  <silent> 0 g0
+"noremap  <silent> $ g$
+
+noremap <silent> <Leader>w :call ToggleWrap()<CR>
+function ToggleWrap()
+   if &wrap
+      echo "Wrap OFF"
+      setlocal nowrap
+      set virtualedit=all
+   else
+      echo "Wrap ON"
+      setlocal wrap linebreak nolist
+      set virtualedit=
+      setlocal display+=lastline
+   endif
+endfunction
+{% endhighlight %}
+
+#### Cool stuff 
+
+The next block comes straight from [spf13' vim configuration][spf13] and is
+really great: persistent undo. I can OD on green tea, make a mess somewhere,
+and when I come back to this file years later, simply pressing `u` will restore
+it to a saner state. How cool is that?
+
+More practical example: imagine you delete a piece of code some day, and you
+happen to need it the day after. I do all the time. Sure, `git` can be useful
+for that, BUT it is so much cooler to press `u` frantically until the desired
+work comes back from the dead, yank what you need, rewind back to the present
+using `<C-R>` and paste. It makes me feel like the Doctor Who of text files.
+{:.margin.note}
+
+{% highlight vim %}
+" Use backup files (from spf13)
+set backup   " backups are nice ...
+set undofile " so is persistent undo ...
+set undolevels=1000  "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+" Setup directories and create them if needed
+let separator = "."
+let parent = $HOME
+let prefix = '.vim'
+let dir_list = {
+         \ 'backup': 'backupdir',
+         \ 'views': 'viewdir',
+         \ 'swap': 'directory',
+         \ 'undo': 'undodir' }
+for [dirname, settingname] in items(dir_list)
+   let directory = parent . '/' . prefix . dirname . "/"
+   if exists("*mkdir")
+      if !isdirectory(directory)
+         call mkdir(directory)
+      endif
+   endif
+   if !isdirectory(directory)
+      echo "Warning: Unable to create backup directory: " . directory
+      echo "Try: mkdir -p " . directory
+   else
+      let directory = substitute(directory, " ", "\\\\ ", "")
+      exec "set " . settingname . "=" . directory
+   endif
+endfor
+{% endhighlight %}
+
+#### Gold stuff
+
+You have already done it. Wander through `/etc/` to find out why *insert
+application name* does not work. Look at configuration files, find the right
+one, modify it, think you solved the problem, try to save changes... and be
+told that you don't have the rights to write there. One solution: `:w!!`,
+enter your password and you're done.
+
+{% highlight vim %}
+cmap w!! w !sudo tee >/dev/null %
+{% endhighlight %}
+
+#### Style
+
+I always use two color schemes, [Molokai] for terminal `vim` and [Solarized]
+for GVim. I also find [Airline] to be a good looking (if not useful) addition.
+
+{% highlight vim %}
+if has("gui_running")
+   set guifont=FantasqueSansMono\ 12
+   set bg=light
+   colorscheme solarized
+else
+   set mouse=a
+   colorscheme molokai
+endif
+
+let g:airline_powerline_fonts = 1
+{% endhighlight %}
+
+### That's about it.
+
+In fact my real `.vimrc` has a ton of other configuration options for plugins
+that I never use, and other commented out snippets which purpose has long since
+been forgotten. Maybe someday I will clean it up a bit and publish it.
+
+
+[Pathogen]: https://github.com/tpope/vim-pathogen
+[spf13]: https://github.com/spf13/spf13-vim
+[multiple-cursors]: https://github.com/terryma/vim-multiple-cursors
+[surround]: https://github.com/tpope/vim-surround
+[supertab]: https://github.com/ervandew/supertab
+[syntastic]: https://github.com/scrooloose/syntastic
+[Fugitive]: https://github.com/tpope/vim-fugitive
+[Airline]: https://github.com/bling/vim-airline
+[Molokai]: https://github.com/tomasr/molokai
+[Solarized]: https://github.com/altercation/vim-colors-solarized
+[ctrl-p]: https://github.com/kien/ctrlp.vim
+[command-t]: https://wincent.com/products/command-t
+[nerdtree]: https://github.com/scrooloose/nerdtree
+[projet-gl]: {% post_url /projects/2013-01-15-compiler-for-java-subset %}
+[indentline]: https://github.com/Yggdroot/indentLine
+[fantasque]: {% post_url /projects/2013-11-18-fantasquesansmono-font %}

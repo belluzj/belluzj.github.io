@@ -1,0 +1,4 @@
+name: Jany Belluz
+markdown: kramdown
+pygments: true
+permalink: /:categories/:title

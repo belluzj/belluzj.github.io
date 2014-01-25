@@ -1,0 +1,12 @@
+---
+layout: default
+current: project
+---
+
+<p class="meta margin time">
+{% if page.period %}{{ page.period }}{% else %}{{ page.date | date_to_string }}{% endif %}
+</p>
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}

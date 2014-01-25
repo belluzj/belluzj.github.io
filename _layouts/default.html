@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{site.name}} &dash; {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/fonts/stylesheet.css"/>
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title">{{site.name}}</h1>
+            <a  class="extra {% if page.current == "blog" %} current {% endif %}" href="/index.html">blog</a>
+            <a  class="extra {% if page.current == "resume" %} current {% endif %}" href="/resume.html">résumé</a>
+            <a  class="extra {% if page.current == "project" %} current {% endif %}" href="/projects.html">projects</a>
+            {% if page.versions %}
+            <a class="lang {% if page.lang == "en" %} current {% endif %}" href="{{ page.versions.en }}">english</a>
+            <a class="lang {% if page.lang == "fr" %} current {% endif %}" href="{{ page.versions.fr }}">français</a>
+            {% endif %}
+          </div>
+
+          <div class="content">
+            {{ content }}
+          </div>
+
+          <div class="footer">
+            <div>
+              <p>
+              Jany Belluz<br />
+              Computer Engineering student<br />
+              Programmer &amp; amateur typographer
+              </p>
+            </div>
+            <div>
+              <p>
+              <a {% if page.current == "blog"    %} class="current" {% endif %} href="/index.html">blog</a><br />
+              <a {% if page.current == "resume"  %} class="current" {% endif %} href="/resume.html">résumé</a><br />
+              <a {% if page.current == "project" %} class="current" {% endif %} href="/projects.html">projects</a>
+              </p>
+            </div>
+            <div>
+              <p>
+              <a href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a><br/>
+              <a href="http://www.linkedin.com/pub/jany-belluz/79/ba5/16b">LinkedIn</a><br />
+              <a href="https://github.com/belluzj">github.com/belluzj</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
