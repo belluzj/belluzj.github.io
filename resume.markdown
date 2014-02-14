@@ -19,6 +19,7 @@ January, 1992, and this year I live in Turin, Italy.  <a
 href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a>.
 
 ### Employment
+{:.clearer}
 
 Summer 2013
 {:.margin.time}

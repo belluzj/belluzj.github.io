@@ -1,3 +1,11 @@
+@media all {html {font-size: 17px;}}
+/* @media all and (max-width:900px){html {font-size: 18px;}} */
+/* @media all and (max-width:880px){html {font-size: 17px;}} */
+@media all and (max-width:890px){html {font-size: 16px;}}
+@media all and (max-width:830px){html {font-size: 15px;}}
+@media all and (max-width:780px){html {font-size: 14px;}}
+@media all and (max-width:730px){html {font-size: 13px;}}
+
 /*****************************************************************************/
 /*
 /* Common
@@ -15,8 +23,9 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   color: #073642;
-  font: 13px "Bitstream Charter", Georgia, Times, "Times New Roman", serif;
+  font-family: "Bitstream Charter", Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  text-rendering: optimizelegibility;
 }
 
 ::selection {
@@ -60,8 +69,8 @@ a:visited { color: #a0a; }
 }
 
 .content ul.posts li {
-  line-height: 200%;
   padding-left: 0;
+  margin-bottom: 0.5rem;
 }
 
 /*****************************************************************************/
@@ -71,35 +80,43 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 130%;
   text-align: left;
-  width: 610px;
-  padding-left: 260px;
+  width: 36em;
+  padding-left: 15em;
   margin: 3em auto 2em;
   line-height: 150%;
 }
 
 .resize {
-  width: 610px;
+  width: 35.5rem;
+}
+
+.site img {
+  max-width: 35.5rem;
 }
 
 .fullwidth {
-  margin-left: -240px;
+  margin-left: -14.5rem;
   clear: both;
 }
 
+.site .fullwidth img, .site img.fullwidth {
+  max-width: 50rem;
+}
+
 .fullwidth.resize {
-  width: 850px;
+  width: 50rem;
 }
 
 .title, .margin {
   text-align: right;
   float: left;
-  width: 210px;
+  width: 12rem;
   clear: both;
-  margin-left: -260px;
-  margin-right: 0px;
-  margin-top: 0px; /* preserve margins even if collapsing does not work for floats */
+  padding-right: 3rem;
+  margin-left: -15rem;
+  margin-right: 0;
+  margin-top: 0; /* preserve margins even if collapsing does not work for floats */
 }
 
 .margin.time {
@@ -108,10 +125,14 @@ a:visited { color: #a0a; }
 .margin.time::before { 
   content: "»";
   position: absolute;
-  right: -50px;
-  width: 40px;
-  padding: 0 5px;
+  right: 0;
+  width: 2.5rem;
+  padding: 0 0.25rem;
   text-align: left;
+}
+
+.site .margin img, .site img.margin {
+  max-width: 11rem;
 }
 
 .margin.note {
@@ -158,12 +179,14 @@ a:visited { color: #a0a; }
   color: #586e75;
   margin-top: 7em;
   overflow: hidden;
-  margin-right: -6em;
 }
 
 .footer div {
   float: left;
-  margin-right: 5em;
+  margin-right: 4em;
+}
+.footer div:last-child {
+  margin-right: 0;
 }
 
 .footer .contact a {
@@ -202,17 +225,18 @@ h2 {
 }
 
 h3 {
-  font-size: 120%;
+  font-size: 130%;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   margin: 2em 0 0.9em;
 }
 h4 {
-  font-size: 120%;
+  font-size: 130%;
   margin: 2em 0 0.9em;
 }
 
-.meta {
+/* Only when next to the article's title, not in lists. */
+.content > .meta {
   margin-top: 0.5em;
 }
 
@@ -227,7 +251,6 @@ h4 {
   border: 1px solid #eee8d5;
   line-height: 1.1em;
   overflow-x: auto;
-  margin-right: 10px;
 }
 
 
@@ -301,25 +324,25 @@ h4 {
 
 /* Images */
 img.framed.resize {
-  width: 580px;
+  width: 31rem;
 }
 
 img.framed.fullwidth.resize {
-  width: 820px;
+  width: 46rem;
 }
 
 .content .framed img, img.framed {
-  border: 10px solid #f5f5f5;
+  border: 0.5rem solid #f5f5f5;
 }
 
 /* Lists */
 
 .content ul, .content ol {
-  margin-left: 1.35em;
+  margin-left: 1.35rem;
 }
 
 .content li {
-  padding-left: 0.65em;
+  padding-left: 0.65rem;
 }
 
 .content dl dt {
@@ -372,31 +395,31 @@ blockquote::before {
 }
 
 blockquote.margin::before {
+  text-align: right;
   content: "”";
   left: 100%;
-  margin-left: -0.5em;
   top: 100%;
-  padding-top: 0.3em;
   margin-top: -0.65em;
+  margin-left: -0.80em;
 }
 blockquote.margin {
   padding-left: 0;
-  padding-right: 30px;
-  width: 180px;
 }
 
 /* Tables */
 
 table {
-  width: 620px; /* = 610 + 10 */
+  width: 32.5rem; /* = 610 + 10 */
   border-collapse: separate;
-  border-spacing: 10px;
+  border-spacing: 0.5em;
   clear: none;
-  margin: 0 0 1em -10px;
+  margin: 0 0 1em -0.5em;
 }
 
 table.fullwidth {
-  width: 890px; /* = 870 + 10*2 */
+  margin-left: 0;
+  margin-right: 0;
+  width: 47rem; /* = 870 + 10*2 */
 }
 
 td, th {

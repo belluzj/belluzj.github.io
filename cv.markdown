@@ -19,6 +19,7 @@ France le 30 janvier 1992, et cette année je vis à Turin, en Italie. <a
 href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a>.
 
 ### Expérience professionnelle
+{:.clearer}
 
 Été 2013
 {:.margin.time}

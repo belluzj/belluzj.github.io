@@ -44,7 +44,7 @@ misplaced curves. I tried to improve that by modifying a bit every letter by
 hand, but it did not get me anywhere. 
 
 This is the proportional version (Fantasque Sans), which I designed in Inkscape.
-{:.margin}
+{:.margin.legend}
 
 ![Proportional font preview](/public/fantasquesans_text.svg){:.framed.resize}
 

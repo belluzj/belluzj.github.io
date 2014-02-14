@@ -62,7 +62,7 @@ around some of the problems we encountered.
 
 From left to right: original photo, border detection, square detection,
 homography, thresholding and final result.
-{:.margin}
+{:.margin.legend}
 
 ![OpenCV recognition steps](/public/agiletouch_post_it_steps.png)
 
@@ -80,7 +80,7 @@ compilation for the whole Qt library), it worked.
 
 ![Dead drive Mac icon](/public/dead_drive_mac_icon.jpg) \\
 Fear this icon.
-{:.margin.note}
+{:.margin}
 
 The next day, the hard drive gave its last spin away, and we had to switch to a
 newer iMac with a brand new 64bits Intel processor. Unfortunately, the drivers

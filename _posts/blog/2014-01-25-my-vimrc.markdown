@@ -185,7 +185,7 @@ another post).
 
 Some shortcuts for tab and window switching, and precise configuration of how I
 want long lines to be cut in a civilized manner.
-{:.margin}
+{:.margin.legend}
 
 {% highlight vim %}
 " Tab switching à la Firefox

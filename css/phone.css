@@ -1,0 +1,129 @@
+@media all and (max-width:680px){html {font-size: 16px;}}
+@media all and (max-width:580px){html {font-size: 15px;}}
+@media all and (max-width:500px){html {font-size: 14px;}}
+@media all and (max-width:470px){html {font-size: 13px;}}
+
+.site {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 100%;
+  padding: 0 1em;
+  margin-left: 0;
+}
+
+.clearer {
+  clear: both;
+}
+
+.margin, .title, blockquote.margin {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: auto;
+  max-width: 30%;
+  padding-right: 2em;
+  margin-left: 0;
+}
+
+.margin.note {
+  font-size: 90%;
+}
+
+.margin.note, .margin.legend, .title, blockquote.margin {
+  float: none;
+  width: 100%;
+  max-width: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding-right: 0;
+  position: relative;
+  margin-bottom: 0rem;
+  text-align: left;
+}
+.margin.note, .margin.legend {
+  padding-left: 3em;
+}
+  
+.margin.note::before, .margin.legend::before {
+  content: "↓";
+  position: absolute;
+  width: 3em;
+  left: 0;
+  text-align: left;
+}
+.margin.note.after {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+.margin.note.after::before {
+  content: "↑";
+}
+.margin.time {
+  margin-bottom: 0.1em;
+  max-width: none;
+}
+.margin.time::before {
+  width: 1.5rem;
+}
+/* .margin.time + p:not(.margin) { */
+/*   display: inline; */
+/* } */
+/* .margin.time + p:not(.margin)::after { */
+/*   content: ""; */
+/*   display: block; */
+/*   margin-bottom: 1em; */
+/* } */
+.margin.meta {
+  float: right;
+  margin-right: 0;
+  margin-left: 2em;
+  padding-right: 0;
+}
+.margin.meta.time::before {
+  content: "«";
+  left: -2em;
+  text-align: right;
+}
+
+.margin.note + *, .margin.legend + * {
+  clear: both;
+}
+
+.fullwidth {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.fullwidth.resize {
+  width: 100%;
+}
+.resize {
+  width: 100%;
+}
+
+.site img, .site .fullwidth img, .site img.fullwidth {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  max-width: 100%;
+}
+
+.site .margin img {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  max-width: 100%;
+}
+.site img.margin {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  max-width: 25%;
+}
+
+table, table.fullwidth {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0.5em;
+  clear: both;
+  margin: 0 -0.5em 1em -0.5em;
+}
+

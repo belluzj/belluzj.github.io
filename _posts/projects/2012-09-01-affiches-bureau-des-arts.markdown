@@ -38,7 +38,7 @@ les imprimait en A3 pour les placarder.
 Comme polices de caractères, on trouve URW Gothic L, [Cabin](http://www.impallari.com/cabin), [EB Garamond](http://www.georgduffner.at/ebgaramond/),
 [Rawengulk Sans](http://www.glukfonts.pl/font.php?font=RawengulkSans). J'avais fait attention à n'utiliser que des fontes
 libres de droit, mais je n'en connaissais pas autant que maintenant.
-{:.margin.note}
+{:.margin.note.after}
 
 Habituellement je commence par chercher sur Flickr des photos libres de droits,
 d'une résolution acceptable, autour du thème que je veux illustrer. Ensuite je

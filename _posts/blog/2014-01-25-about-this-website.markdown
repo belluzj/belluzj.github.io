@@ -98,7 +98,7 @@ def stop_wheels(self):
 {:.margin}
 
 I also take lifestyle advice from clothing items.
-{:.margin.note}
+{:.margin.note.after}
 
 I like tea. Where do I get it? Here is very insightful comparison of my two
 favorite tea shops.  Of course, they both serve great tea.
