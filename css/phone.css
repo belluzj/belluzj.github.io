@@ -58,7 +58,7 @@
   content: "↑";
 }
 .margin.time {
-  margin-bottom: 0.1em;
+  margin-bottom: 0em;
   max-width: none;
 }
 .margin.time::before {

@@ -4,6 +4,7 @@ title:  "Fantasque Sans Mono"
 period: November 2013
 categories: projects design
 current: project
+lang: en
 ---
 
 <p class="meta margin time">November 2013</p>

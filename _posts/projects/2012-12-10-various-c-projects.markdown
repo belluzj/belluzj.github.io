@@ -3,6 +3,7 @@ layout: project
 title:  "Various C system-oriented projects"
 period: 2012 - 2013
 categories: projects school
+lang: en
 ---
 
 A memory allocator, a preemptive process scheduler, synchronization exercises

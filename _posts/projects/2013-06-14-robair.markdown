@@ -2,6 +2,7 @@
 layout: project
 title:  "RobAIR, a telepresence robot"
 period: June 2013
+lang: en
 categories: projects school design
 ---
 

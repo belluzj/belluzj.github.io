@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Réalisations pour le Bureau des Arts de l'Ensimag"
+lang: fr
 period: 2012 - 2013
 categories: projects design
 ---

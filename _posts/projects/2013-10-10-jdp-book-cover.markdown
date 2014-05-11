@@ -3,6 +3,7 @@ layout: project
 title:  "Book cover for Ensimag Partner Day"
 date: 2013-10-10
 categories: projects
+lang: en
 ---
 
 Every year, our school host a whole-day event called *Journée des Partenaires*.

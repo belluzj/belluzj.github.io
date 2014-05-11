@@ -14,9 +14,9 @@ current: resume
 {{page.title}}
 ------
 
-**Bonjour, je suis un étudiant ingénieur en informatique.** Je suis né en
-France le 30 janvier 1992, et cette année je vis à Turin, en Italie. <a
-href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a>.
+**Bonjour, je suis un étudiant ingénieur en informatique.**\\
+J'aime concevoir des logiciels utiles et beaux.
+<a href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Contactez-moi</a>.
 
 ### Expérience professionnelle
 {:.clearer}
@@ -24,24 +24,17 @@ href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&
 Été 2013
 {:.margin.time}
 
-J'ai appris les bases de la comptabilité, et j'ai découvert les applications
-Javascript côté client et les tests automatisés.
-{:.margin.note}
-
-**Stage de deux mois chez [Sogilis](http://sogilis.com/) à Grenoble:**
-Intégration d'une équipe de développement Web spécialiste de l'approche
-Lean Startup, pour développer de façon itérative des applications web
-à forte valeur ajoutée.
+**Stage de deux mois chez la startup Lean [Sogilis](http://sogilis.com/) à
+Grenoble:** application de comptabilité et gestion de trésorerie. Conception
+d'interface utilisateur, implémentation dans le navigateur avec Ember.js,
+gestion de projet agile, tests unitaires.
 {:#sogilis}
-
-Conception d'une partie de l'interface utilisateur pour une application de
-comptabilité et gestion de trésorerie, puis implémentation "dans le
-navigateur" à l'aide du framework Javascript Ember.js.
 
 Été 2010
 {:.margin.time}
 
-**Deux mois comme manutentionaire chez le transporteur Schenker-Joyau à Chaumont.**
+**Deux mois comme manutentionaire chez le transporteur Schenker-Joyau à
+Chaumont.** Travail en équipe, efficacité, tracabilité.
 
 
 ### Études
@@ -50,15 +43,13 @@ navigateur" à l'aide du framework Javascript Ember.js.
 {:.margin.time}
 
 **Double diplôme au [Politecnico di Torino](http://www.polito.it) en
-*Ingegnieria Informatica*.**
+ingénierie informatique.**
 
 2011-2014
 {:.margin.time}
 
 **Cursus d'ingénieur à l'[Ensimag](http://ensimag.grenoble-inp.fr), filière
-systèmes d'informations.**  J'ai participé à de [nombreux
-projets](projects.html#school) et j'ai terminé les deux premières années avec
-un bon classement.
+systèmes d'informations.** [Quelques projets scolaires](projets.html#school).
 
 2009-2011
 {:.margin.time}
@@ -67,7 +58,7 @@ Classes préparatoires MPSI puis MP\* au Lycée Carnot de Dijon.
 
 ### Langues
 
-J'ai lu plusieurs cycles de fiction en anglais et la plupart de mes cours au Polito sont en anglais.
+Je lis des romans et je suis des cours en anglais.
 {:.margin.note}
 
 **Français** --- langue maternelle. \\
@@ -79,41 +70,35 @@ Allemand --- écrit et parlé pour se débrouiller.
 
 ### Langages de programmation, frameworks et outils
 
+* <a href="{% post_url projects/2013-01-15-compiler-for-java-subset %}" title="Example project: a compiler">Ada</a>
+* <a href="{% post_url projects/2012-12-10-various-c-projects %}" title="Example project: a shell">C</a>
+* <a href="{% post_url projects/2013-06-12-AgileTouch-distributed-scrum %}" title="Example project: augmented agile backlog">C++</a> (Qt, OpenCV)
+* Java (J2EE)
+* SQL
+* Shell and Makefiles
+* <a href="#sogilis" title="Example project: accounting application">Javascript</a> (Ember, EPF, Mocha, Chai)
+* xHTML/CSS
+* <a href="{% post_url projects/2013-06-14-robair %}" title="Example project: a robot">Python</a>
+* Ruby (on Rails)
+* Scilab
+* PHP
+* R
+* Prolog
+* CaML
+{:.inline-list}
 
-**Bonne connaissance de
-[Ada]({% post_url projects/2013-01-15-compiler-for-java-subset %}),
-[C]({% post_url projects/2012-12-10-various-c-projects %}),
-[C++]({% post_url projects/2013-06-12-AgileTouch-distributed-scrum %}) (Qt, OpenCV),
-Java (J2EE),
-SQL,
-PHP,
-[Javascript](#sogilis) (Ember, EPF, Mocha, Chai),
-xHTML & CSS.**
-
-J'ai aussi déjà utilisé R, Scilab, [Python][python], Ruby, CaML et Prolog. En tous cas je n'ai pas
-peur des manuels et je sais me documenter.
-
-J'utilise Linux et des logiciels open-source tous les jours depuis six ou sept
-ans.
+Je m'intéresse à Linux et logiciel libre.
 {:.margin.note}
 
-**Pour développer : `vim` comme éditeur de texte, `git` pour la gestion de
-verions, Eclipse pour le Java.** J'ai aussi de bonnes notions en Makefiles, en
-scripts shell et en systèmes Unix en général.
-
-Bureautique et dessin : je me sers de la suite LibreOffice, et de LaTeX si
-besoin. Pour retoucher des images ou dessiner, je me débrouille plutôt bien
-Gimp et Inkscape. J'ai aussi beaucoup travaillé avec FontForge.
-
+**Outils de dévelopment: `vim`, `git`, Eclipse.**
+Bureautique et dessin: LibreOffice, LaTeX, Gimp, Inkscape, FontForge.
 
 ### Centres d'intérêt
 
-Typographie, lecture de romans et de *webcomics*, dessin (dont une [police de
-caractère][fantasque]). J'aime aussi écouter de la musique, faire de l'origami,
-cuisiner et boire du thé.  J'ai été trésorier et
+Typographie, lecture de romans et de bandes dessinées en ligne, dessin (dont une [police de
+caractère][fantasque]), musique, origami, thé.  J'ai été trésorier et
 [webmestre](http://bda.ensimag.fr) du Bureau des Arts de l'Ensimag pendant un
 an. J'en ai profité pour faire des [affiches][bda].
 
-[python]: {% post_url projects/2013-06-14-robair %}
 [fantasque]: {% post_url projects/2013-11-18-fantasquesansmono-font %}
 [bda]: {% post_url projects/2012-09-01-affiches-bureau-des-arts %}

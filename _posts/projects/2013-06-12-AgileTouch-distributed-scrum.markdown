@@ -3,6 +3,7 @@ layout: project
 title:  "Agile Touch: an augmented Scrum backlog"
 period: June 2013
 categories: projects school
+lang: en
 ---
 
 ### The idea
@@ -26,7 +27,9 @@ his idea as an end-of-second-year project. Our four-student team turned his
 design into a real thing, and it worked very well, as you can see in the
 following video demonstration.
 
-<video src="http://duet.imag.fr:8080/EnsimagVideo/2013_ScrumBacklog.mp4" controls>
+<video controls>
+<source src="http://duet.imag.fr:8080/EnsimagVideo/2013_ScrumBacklog.mp4"/>
+<source src="/public/2013_ScrumBacklog.ogg"/>
 You can simply [download the video presentation](http://duet.imag.fr:8080/EnsimagVideo/2013_ScrumBacklog.mp4).
 </video>
 {:.fullwidth.resize}

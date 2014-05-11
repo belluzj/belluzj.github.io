@@ -3,6 +3,7 @@ layout: project
 title:  "Projet Génie Logiciel: a compiler for Deca, a subset of Java"
 period: January 2013
 categories: projects school
+lang: en
 ---
 
 All Ensimag engineers have at least one project in common: the "Software
