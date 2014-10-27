@@ -18,13 +18,13 @@ in Grenoble, aimed at designing a telepresence robot. The idea is for example
 to visit a museum without actually going there, but to send RobAIR instead. Its
 camera and microphones will be your eyes and ears, while his speakers and
 screen will assure your vocal and visual presence. A tablet can be used to see
-what RobAIR sees, and give him piloting instructions. The whole project is
+what RobAIR sees, and to give him piloting instructions. The whole project is
 totally open source, and based on free technologies such as Ubuntu and [ROS
 (the Robot Operating System)][ROS] tries to use cheap and widely available
 components, such as [Arduino cards][arduino] or Kinect sensors.
 
 
-I worked with three other students on software parts for the piloting part of
+I worked with three other students on software components for the piloting part of
 RobAIR. Our tasks included documentation work about algorithms for crowd
 avoidance and writing ROS nodes to implement those algorithms. Unfortunately
 the robot was not ready for testing when we reached the ROS implementation
@@ -35,7 +35,7 @@ More information about our work
 can be found on [our team's wiki page][wiki_our], and some of the code is
 available in [this GitHub repository][github].
 
-In the end I also realized a [presentation flyer (in French)][flyer] showing
+In the end I also designed a [presentation flyer (in French)][flyer] showing
 off the next iteration of the RobAIR series, made by another team of students
 (with purple flower pots instead of wood for the body. Did I mention
 affordable?)

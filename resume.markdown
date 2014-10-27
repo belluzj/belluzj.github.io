@@ -20,6 +20,14 @@ I love to design useful and beautiful software. <a href="mailto:&#106;&#097;&#11
 ### Employment
 {:.clearer}
 
+Sept. 2014-Feb. 2015
+{:.margin.time}
+
+**Final project at [the CAD laboratory](http://www.cad.polito.it/) of the
+Politecnico di Torino: improve the [MicroGP](http://ugp3.sourceforge.net/) evolutionary computation
+optimizer.** Research methodology, performance evaluation, software quality,
+object-oriented design in C++, embedding of the Lua language. 
+
 Summer 2013
 {:.margin.time}
 
@@ -27,13 +35,6 @@ Summer 2013
 Grenoble:** an accounting and cash management application. User interface
 design, rich web front-end using Ember.js, agile project management, unit testing.
 {:#sogilis}
-
-
-Summer 2010
-{:.margin.time}
-
-**Two months as a warehouseman at hauler Schenker-Joyau in Chaumont.**
-Teamwork, efficiency, traceability.
 
 
 ### Education

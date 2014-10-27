@@ -21,6 +21,15 @@ J'aime concevoir des logiciels utiles et beaux.
 ### Expérience professionnelle
 {:.clearer}
 
+Sept. 2014-fév. 2015
+{:.margin.time}
+
+**Projet de fin d'études au sein du [groupe CAD](http://www.cad.polito.it/) du Politecnico di
+Torino : amélioration du solveur par algorithmes évolutifs
+[MicroGP](http://ugp3.sourceforge.net/).** Démarche de recherche, évaluation
+des performances, qualité logicielle, implémentation orientée objet en C++,
+intégration de Lua.
+
 Été 2013
 {:.margin.time}
 
@@ -29,13 +38,6 @@ Grenoble:** application de comptabilité et gestion de trésorerie. Conception
 d'interface utilisateur, implémentation dans le navigateur avec Ember.js,
 gestion de projet agile, tests unitaires.
 {:#sogilis}
-
-Été 2010
-{:.margin.time}
-
-**Deux mois comme manutentionaire chez le transporteur Schenker-Joyau à
-Chaumont.** Travail en équipe, efficacité, tracabilité.
-
 
 ### Études
 
