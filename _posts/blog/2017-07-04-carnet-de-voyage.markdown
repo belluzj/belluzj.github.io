@@ -87,8 +87,20 @@ I need to work on drawing and painting the human body.
 
 ![La petite fille](/public/carnet/petite_fille.jpg)
 
-I did not have so much time to dedicate to painting during the trip, so that's
-all for my first *carnet de voyage*. I hope you enjoyed it!
+Almost on the very last day of the trip, I finally resolved to send postcards.
+However, with the four postcards that I had bought, I was one short to reach
+the bare minimum of recipients that would grant me continued contact with my
+family upon my return to France. That's when I thought that I could make a
+postcard myself!
+
+It's a view of Hudson Square. Not special, but typical of NYC with a yellow cab
+and American flags (here on the Fire Museum).
+{:.margin.note}
+
+![Hudson Square](/public/carnet/postcard.jpg)
+
+In the end, I did not have so much time to dedicate to painting during the trip,
+so that's all for my first *carnet de voyage*. I hope you enjoyed it!
 
 ### Epilogue
 
