@@ -37,8 +37,8 @@ Avr. 2015–Août 2017
 (grammaires PEG, modélisation de code, analyse de flot de données), analyse et
 visualisation de graphes, infrastructure SaaS (Elasticsearch, MongoDB, RabbitMQ,
 Docker), back-end en Ruby (JSONAPI) et front-end en Javascript (Babel ES6,
-Webpack, Redux, GoJS), organisation d'un
-[hackathon](https://github.com/DeepAlgo/HackathonJune2017).
+Webpack, Redux, GoJS), revue de code et intégration continue sur GitLab,
+organisation d'un [hackathon](https://github.com/DeepAlgo/HackathonJune2017).
 
 Sept. 2014–Fév. 2015
 {:.margin.time}
@@ -103,7 +103,7 @@ Allemand --- bases scolaires.
 Je m'intéresse à Linux et au logiciel libre.
 {:.margin.note}
 
-**Outils de dévelopment: Atom, `vim`, `git`.**
+**Outils de dévelopment: Atom, `vim`, `git`, GitLab, GitLab CI.**
 Bureautique et dessin: LibreOffice, LaTeX, GIMP, Inkscape, FontForge.
 
 ### Centres d'intérêt
