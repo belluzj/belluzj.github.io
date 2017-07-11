@@ -35,7 +35,7 @@ Apr. 2015–Aug. 2017
 [Deep Algo](https://www.deepalgo.com/) in Paris:** code analysis and generation
 (PEG grammars, code modeling, data-flow analysis), graph analysis and
 visualization, SaaS infrastructure (Elasticsearch, MongoDB, RabbitMQ, Docker),
-Ruby back-end (JSONAPI), Javascript front-end (Babel ES6, Webpack, Reduc, GoJS),
+Ruby back-end (JSONAPI), Javascript front-end (Babel ES6, Webpack, Redux, GoJS),
 code review and continuous integration on GitLab, organization of a
 [hackathon](https://github.com/DeepAlgo/HackathonJune2017).
 
