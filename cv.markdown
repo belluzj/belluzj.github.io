@@ -21,13 +21,15 @@ J'aime concevoir des logiciels utiles et beaux.
 ### Expérience professionnelle
 {:.clearer}
 
-Sept. 2017–…
+Depuis oct. 2017
 {:.margin.time}
 
-***Votre entreprise ?*** \\
-Je suis à l'écoute de vos propositions, dans l'idéal conciliant mon intérêt pour
-la typographie et mon expérience d'ingénieur logiciel. Contactez-moi :
-<a href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a>&nbsp;—&nbsp;<a href="http://www.linkedin.com/pub/jany-belluz/79/ba5/16b">LinkedIn</a>&nbsp;—&nbsp;<a href="https://github.com/belluzj">GitHub</a>
+**Développeur logiciel chez [Dalton Maag](http://www.daltonmaag.com/) à Londres:**
+Technologies pour la typographie, outils internes et
+[open-source](https://github.com/googlei18n/glyphsLib),
+sites web public et internes, animations et art génératif.
+Python (fontTools, matplotlib, scipy), Ruby on Rails (JSONAPI),
+TypeScript, Webpack, Vue.js and Vuex.
 
 Avr. 2015–Août 2017
 {:.margin.time}

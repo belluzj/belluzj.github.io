@@ -20,13 +20,14 @@ I love to build useful and beautiful software. <a href="mailto:&#106;&#097;&#110
 ### Employment
 {:.clearer}
 
-Sept. 2017–…
+Since Oct. 2017
 {:.margin.time}
 
-***Your company?*** \\
-I am looking for job opportunities, ideally something that would combine my
-interest in type design with my software engineering skills. Get in touch:
-<a href="mailto:&#106;&#097;&#110;&#121;&#046;&#098;&#101;&#108;&#108;&#117;&#122;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#102;&#114;">Email</a>&nbsp;—&nbsp;<a href="http://www.linkedin.com/pub/jany-belluz/79/ba5/16b">LinkedIn</a>&nbsp;—&nbsp;<a href="https://github.com/belluzj">GitHub</a>
+**Software Developer at [Dalton Maag](http://www.daltonmaag.com/) in London:**
+Font technology, internal and [open-source](https://github.com/googlei18n/glyphsLib)
+tooling, public and internal webapps, generative art and animations. Python
+(fontTools, matplotlib, scipy), Ruby on Rails (JSONAPI), TypeScript, Webpack,
+Vue.js and Vuex.
 
 Apr. 2015–Aug. 2017
 {:.margin.time}
