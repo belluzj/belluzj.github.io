@@ -103,7 +103,11 @@ a:visited {
   width: 35rem; }
 
 .site img {
+  vertical-align: bottom;
   max-width: 35rem; }
+
+.room-below {
+  margin-bottom: 3rem; }
 
 .fullwidth {
   margin-left: -13rem;
@@ -415,3 +419,5 @@ ul.inline-list li {
   display: inline-block;
   padding-left: 0rem;
   padding-right: 1rem; }
+
+/*# sourceMappingURL=main.css.map */

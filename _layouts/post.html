@@ -4,7 +4,12 @@ current: blog
 ---
 
 <p class="meta margin time">{{ page.date | date_to_string }}</p>
-<h2>{{ page.title }}</h2>
+<h2>
+  {{ page.title }}
+  {% if page.subtitle %}
+  <br><small>{{ page.subtitle }}</small>
+  {% endif %}
+</h2>
 
 <div class="post">
 {{ content }}
