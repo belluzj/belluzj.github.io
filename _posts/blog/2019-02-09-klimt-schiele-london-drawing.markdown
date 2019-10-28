@@ -47,7 +47,7 @@ a shiny golden yellow theatre prop.
 {:.fullwidth.room-below}
 
 ![pencil drawing of the face of the same woman](/public/london_drawing_klimt_schiele/3.jpg)
-{:.margin}
+{:.margin.img}
 
 ![pencil drawing and watercolour of the face of the same woman, wearing a colourful head prop](/public/london_drawing_klimt_schiele/4.jpg)
 

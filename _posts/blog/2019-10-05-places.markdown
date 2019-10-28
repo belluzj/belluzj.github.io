@@ -1,0 +1,113 @@
+---
+layout: post
+title: Places
+categories: blog
+---
+
+### Tokyo and Kyoto, Japan
+
+I recently went on holidays for two weeks in Japan, along with colleagues from
+Dalton Maag; in part to attend [ATypI 2019](https://www.atypi.org/conferences/tokyo-2019)
+but mostly to discover Japan and experience a country that to me sounded
+both foreign and familiar. The trip was amazing thanks to the Japanese extreme
+niceness towards clueless tourists like me, the excellent food, tea, sake and
+other delicacies, and the traditional temples, pristine gardens, crazy cityscapes
+that coexist within meters of each other.
+
+We visited Kyoto and Tokyo, and although we adopted a relaxed pace, I had
+only time to make a couple drawings.
+
+Our street in Kyoto. The crazy electrical wiring is actually very common.
+We lived next to a very cute and quiet jazz bar held by an older couple,
+a bike shop that also sold a selection of Japanese records, and a temple
+that felt like a scene from Spirited Away.
+{:.margin.note}
+
+![Kyoto](/public/places/kyoto.jpg)
+{:.room-below}
+
+![A tree from Hama Rikyū Garden in Tokyo](/public/places/tokyo_tree.jpg)
+{:.half-right}
+
+A nice tree from the same garden.
+{:.half-right.room-below.note.after}
+
+![View from the Hama Rikyū Garden in Tokyo](/public/places/tokyo_garden.jpg)
+{:.half-left}
+
+A view from the Hama Rikyu Garden in Tokyo.
+{:.half-left.room-below.note.after}
+
+### Vallée de la Loire, France
+
+There's a river in France called Loire along which the King's court used
+to live and build castles to show off their wealth. Most of the castles
+can be visited today, including their very well kept parks and gardens.
+
+View of [Chaumont-sur-Loire](http://www.domaine-chaumont.fr/en/home).
+This castle hosts an International Garden Festival, with more than 20
+different spaces to visit, all designed around a central theme.
+I drew this from a photograph, on a small piece of watercolor paper made on
+purpose for postcards.
+{:.note.margin}
+
+![Chaumont-sur-Loire](/public/places/chaumont_sur_loire.jpg)
+
+During a long week of holidays, we visited about 10 castles in the area,
+and we stayed in a [<i>Gîte de France</i>](https://www.gites-de-france.com/en),
+the French equivalent of AirBnB that has existed since the fifties.
+
+Below is a view of the facade of the old countryside house were we stayed.
+I painted this while taking a "day off" from the holiday, leaving my
+castle-frenzied friends to visit another two castles while I read comic books
+in the sun and practiced drawing.
+
+![Véretz](/public/places/veretz.jpg)
+{:.fullwidth.room-below}
+
+### Berlin, Germany
+{:.half-right}
+
+I sketched a hallway of Berlin's Tegel airport on the way back from
+[Typo Labs 2018](https://www.typotalks.com/labs/), using the
+[Font Fiction](http://fontfiction.com/) booklet from Underware.
+I don't think the tote bag of goodies included any blank notebook
+that time.
+{:.half-right}
+
+![Berlin airport](/public/places/berlin_airport.jpg)
+{:.half-left.room-below}
+
+### London, United Kingdom
+
+I have been living in London for two years now but in the end I only did a few drawings
+of the city. What I like most is drawing nature because it's easy, the plants can be
+wonky and they don't look strange, whereas architecture requires more care to avoid
+making non-euclidean buildings out of a Lovecraft novel.
+
+Some benches in Brockwell Park, near Brixton. I added a bit of watercolors and
+white colouring pencil, on craft paper. I have a sort of "technique" to draw plants
+now: I try to spot a detail that is representative, like the shape of a leaf or
+a flower, and then make many tiny copies of that to build the foliage.
+{:.margin.note}
+
+![Brockwell Park](/public/places/brockwell_park.jpg)
+{:.room-below}
+
+![Ruskin Park](/public/places/ruskin_park.jpg)
+{:.fullwidth}
+
+A view from Ruskin Park at the start of Autumn. The trees were really starting
+to wear crazy colors.
+{:.note.after.room-below}
+
+![Storm over Coldharbour Lane](/public/places/london.jpg)
+{:.fullwidth}
+
+Storm clouds gathering above Coldharbour Lane. I painted that from memory after
+coming home from work, so the windows on the left are quite cartoon-ish and
+the house of right is actually from across my street rather than Coldharbour
+Lane. So this one's mostly a lie (but I could also have not told you anything).
+{:.note.after}
+
+

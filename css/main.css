@@ -26,11 +26,12 @@
   margin: 0;
   padding: 0; }
 
-html, body {
+html,
+body {
   height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   color: #073642;
   font-family: "Bitstream Charter", Georgia, Times, "Times New Roman", serif;
   text-align: center;
@@ -46,10 +47,19 @@ body {
   /* Firefox */
   color: white; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 100%; }
 
-ul, ol, dl, pre, p {
+ul,
+ol,
+dl,
+pre,
+p {
   margin: 0 0 1em; }
 
 li > ul:last-child,
@@ -113,13 +123,26 @@ a:visited {
   margin-left: -13rem;
   clear: both; }
 
-.site .fullwidth img, .site img.fullwidth {
+.site .fullwidth img,
+.site img.fullwidth {
   max-width: 48rem; }
 
 .fullwidth.resize {
   width: 48rem; }
 
-.title, .margin {
+.half-left {
+  margin-left: -13rem;
+  width: 22.5rem; }
+
+.half-right {
+  float: right;
+  width: 22.5rem; }
+
+.half-left img, .half-right img {
+  width: 22.5rem; }
+
+.title,
+.margin {
   text-align: right;
   float: left;
   width: 10rem;
@@ -141,17 +164,19 @@ a:visited {
   padding: 0 0.25rem;
   text-align: left; }
 
-.site .margin img, .site img.margin {
+.site .margin img,
+.site img.margin {
   max-width: 10rem; }
 
-.margin.note {
+.note {
   font-size: 80%;
   font-style: italic; }
 
 .header {
   margin-bottom: 4em; }
 
-.header a, .footer a {
+.header a,
+.footer a {
   color: #aaa;
   font-weight: bold;
   text-decoration: none; }
@@ -164,7 +189,8 @@ a:visited {
 .header a.current {
   color: #dc322f; }
 
-.header a:hover, .footer a:hover {
+.header a:hover,
+.footer a:hover {
   color: #000; }
 
 .header a.extra {
@@ -208,7 +234,9 @@ a:visited {
 /*
 /*****************************************************************************/
 /* standard */
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-family: "League Gothic";
   font-weight: normal;
   line-height: 105%; }
@@ -232,10 +260,10 @@ h4 {
   margin-top: 0.4em; }
 
 .content .margin {
-  color: #586E75; }
+  color: #586e75; }
 
 .content pre {
-  color: #586E75;
+  color: #586e75;
   background-color: #fdf6e3;
   padding: 0.2em 0.4em;
   border: 1px solid #eee8d5;
@@ -276,12 +304,13 @@ h4 {
   /* background: #f5f5f5; */
   border-color: white;
   padding: 0 0.15em 0.05em;
-  margin: 0 -0.10em;
+  margin: 0 -0.1em;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px; }
 
-.content p a, .content blockquote a {
+.content p a,
+.content blockquote a {
   font-weight: inherit;
   font-family: "CharterishSmallCaps";
   text-transform: lowercase;
@@ -292,11 +321,13 @@ h4 {
   transition-duration: 150ms;
   bottom: 2px;
   border-bottom: 2px solid #ddd !important;
-  background: #F5F5F5; }
+  background: #f5f5f5; }
 
-.content a:active, .content a:focus, .content a:visited {
+.content a:active,
+.content a:focus,
+.content a:visited {
   transition-duration: 0ms;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   bottom: 0px;
   outline: none;
   border-bottom: white 0px solid; }
@@ -308,11 +339,13 @@ img.framed.resize {
 img.framed.fullwidth.resize {
   width: 47rem; }
 
-.content .framed img, img.framed {
+.content .framed img,
+img.framed {
   border: 0.5rem solid #f5f5f5; }
 
 /* Lists */
-.content ul, .content ol {
+.content ul,
+.content ol {
   margin-left: 1.35rem; }
 
 .content li {
@@ -335,11 +368,14 @@ img.framed.fullwidth.resize {
   margin-right: 50%;
   margin-top: 4em; }
 
-hr + h2, hr + h3, hr + h4 {
+hr + h2,
+hr + h3,
+hr + h4 {
   margin-top: 2em; }
 
 /* Quotes */
-blockquote, q {
+blockquote,
+q {
   font-style: italic; }
 
 blockquote {
@@ -366,7 +402,7 @@ blockquote.margin::before {
   left: 100%;
   top: 100%;
   margin-top: -0.65em;
-  margin-left: -0.80em; }
+  margin-left: -0.8em; }
 
 blockquote.margin {
   padding-left: 0; }
@@ -386,7 +422,8 @@ table.fullwidth {
   width: 49rem;
   /* = 870 + 10*2 */ }
 
-td, th {
+td,
+th {
   padding: 0 0.1em; }
 
 th {
@@ -419,5 +456,3 @@ ul.inline-list li {
   display: inline-block;
   padding-left: 0rem;
   padding-right: 1rem; }
-
-/*# sourceMappingURL=main.css.map */

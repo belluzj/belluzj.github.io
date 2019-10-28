@@ -81,9 +81,11 @@ a [half-pan][caputmortuum1] [of][caputmortuum2] [Caput][caputmortuum3]
 [Mortuum][caputmortuum4], which I bought along with a new brush and a new paper
 block.
 
-![Clouds](/public/carnet/clouds.jpg) <br>
+![Clouds](/public/carnet/clouds.jpg)
+{:.margin.img}
+
 Now I look at clouds differently.
-{:.margin.note}
+{:.margin.note.after}
 
 To have more colors, I ordered from Amazon a huge Winsor & Newton "Cotman"
 Studio Set watercolors palette, with 45 half-pans, because it was cheap: only
@@ -126,17 +128,23 @@ with me to New York City last month, to make my first
 [*carnet de voyage*][carnet]!
 
 
-![Morning sky](/public/carnet/morning_sky.jpg) <br>
+![Morning sky](/public/carnet/morning_sky.jpg)
+{:.margin.img}
+
 A morning sky
-{:.margin.note}
+{:.margin.note.after}
 
-![Calligraphy](/public/carnet/calligraphy.jpg) <br>
+![Calligraphy](/public/carnet/calligraphy.jpg)
+{:.margin.img}
+
 Practicing calligraphy
-{:.margin.note}
+{:.margin.note.after}
 
-![Narcissus](/public/carnet/narcissus.jpg) <br>
+![Narcissus](/public/carnet/narcissus.jpg)
+{:.margin.img}
+
 Some daffodils
-{:.margin.note}
+{:.margin.note.after}
 
 ![La coulée verte](/public/carnet/coulee_verte.jpg)
 

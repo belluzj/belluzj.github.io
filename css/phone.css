@@ -24,11 +24,11 @@
   margin-left: 0;
 }
 
-.margin.note {
+.note {
   font-size: 90%;
 }
 
-.margin.note, .margin.legend, .title, blockquote.margin {
+.margin.img, .margin.note, .margin.legend, .title, blockquote.margin {
   float: none;
   width: 100%;
   max-width: none;
@@ -36,7 +36,7 @@
        box-sizing: border-box;
   padding-right: 0;
   position: relative;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   text-align: left;
 }
 .margin.note, .margin.legend {
@@ -51,7 +51,7 @@
   text-align: left;
 }
 .margin.note.after {
-  margin-top: -1rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
 }
 .margin.note.after::before {
@@ -88,6 +88,10 @@
   clear: both;
 }
 
+.room-below {
+  margin-bottom: 1em;
+}
+
 .fullwidth {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -99,6 +103,20 @@
   width: 100%;
 }
 .resize {
+  width: 100%;
+}
+
+.half-left {
+  width: 47%;
+  margin-left: 0;
+}
+
+.half-right {
+  margin-left: 6%;
+  width: 47%;
+}
+
+.half-left img, .half-right img {
   width: 100%;
 }
 
