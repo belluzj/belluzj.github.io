@@ -29,7 +29,7 @@ Technologies pour la typographie, outils internes et
 [open-source](https://github.com/googlei18n/glyphsLib),
 sites web public et internes, animations et art génératif.
 Python (fontTools, matplotlib, scipy), Ruby on Rails (JSONAPI),
-TypeScript, Webpack, Vue.js and Vuex.
+TypeScript, Webpack, Vue.js et Vuex, Astro, Rust.
 
 Avr. 2015–Août 2017
 {:.margin.time}

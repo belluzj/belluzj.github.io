@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Klimt & Schiele: the Seductive Line with London Drawing"
-subtitle: "(warning: nudity)"
+subtitle: "(CW: nudity)"
 categories: blog
 ---
 
