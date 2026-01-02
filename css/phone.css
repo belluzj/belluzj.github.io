@@ -15,7 +15,7 @@
   clear: both;
 }
 
-.margin, .title, blockquote.margin {
+.margin, .title, blockquote.margin, figcaption.margin {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
   width: auto;
@@ -28,7 +28,7 @@
   font-size: 90%;
 }
 
-.margin.img, .margin.note, .margin.legend, .title, blockquote.margin {
+.margin.img, .margin.note, .margin.legend, .title, blockquote.margin, figcaption.margin {
   float: none;
   width: 100%;
   max-width: none;
@@ -39,11 +39,11 @@
   margin-bottom: 0.5rem;
   text-align: left;
 }
-.margin.note, .margin.legend {
+.margin.note, .margin.legend, figcaption.margin {
   padding-left: 3em;
 }
   
-.margin.note::before, .margin.legend::before {
+.margin.note::before, .margin.legend::before, figcaption.margin::before {
   content: "↓";
   position: absolute;
   width: 3em;

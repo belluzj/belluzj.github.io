@@ -25,7 +25,6 @@ run was a success, and it was a real pleasure to work outside.
 {:.margin.note}
 
 ![L'abbaye de Port Royal des Champs](/public/carnet/port_royal_des_champs.jpg)
-{:fullwidth}
 
 The nice thing with watercolors is the reduced number of items you have to
 carry:
